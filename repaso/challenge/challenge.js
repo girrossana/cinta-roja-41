@@ -67,11 +67,15 @@ mypeguin.saludar();
 //para cambiar un atributo basta llamarlo nuemavente y colocarle lo nuevp, y para llamar una funcion que ya esta solo basta con colocar la classe y el nombre de la funcion.pd: seguido del atrib que se quiera cambiar va el signo de =
 // paso 7
 mypeguin.Volar = true
+function habilidad (){
 if (mypeguin.Volar) {
 console.log('puedo volar');
+return true;
 }else {
     console.log('no puedo volar');
-}
+    return false;
+}}
+habilidad();
 // mypeguin.volar = true
 
 //     if (puedevolar){ console.log('no puedo volar');
@@ -89,8 +93,8 @@ console.log('puedo volar');
 // console.log('no puedo volar');
 //     return false;
 // paso 8
-                                                                        // mypeguin.puedevolar = true;
-// // mypeguin.Volar();
+ mypeguin.puedevolar = true;
+ habilidad();
 
 // tengo es una condicional
 
@@ -104,12 +108,15 @@ let Mole = {
 console.log(Mole.nombre);
 console.log(Mole.porciones);
 console.log(Mole.ingredientes);
+
+
 // paso 10
+//no estpy segura hay que revisar- asesoria-preguntar boleano como llamarlos en clg
 let libro = { 
     nombre:['guia de estudio para el examen cenegal', 'largo petalo del mar', '100 años de soledad'],
     autor:['sergio olvera', 'isabe allende', ' gabriel garcia marquez'],
     leido: true,
-
+    no_leido: false
 }
 console.log(libro.nombre[0], libro.autor[0], libro.leido);
-
+console.log(libro.nombre[2], libro.autor[2], libro.no_leido);
