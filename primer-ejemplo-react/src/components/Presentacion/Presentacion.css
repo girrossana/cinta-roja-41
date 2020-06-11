@@ -1,0 +1,17 @@
+.presentation{
+    width: 20vw;
+    height: 70vh;
+    
+}
+
+.is-orange{
+background-color: orange;
+}
+
+.red{
+    background-color: orangered;
+}
+.pink{
+    background-color: fuchsia;
+    
+}
